@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace CarLotSimulator
 {
-    internal class CarLot
+    public class CarLot
     {
-       public List<Car> MyCarList { get ; set; } = new List<Car>();
+        public CarLot()
+        {
+        }
+        public static int numberOfCars = 1;
+        public List<Car> MyCarList { get; set; } = new List<Car>();
     }
 }

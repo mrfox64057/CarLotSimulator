@@ -10,7 +10,7 @@ namespace CarLotSimulator
     {
         public Car()
         {
-
+            CarLot.numberOfCars++;
         }
         public Car(string make, string model, int year, bool isDriveable, string engineNoise,
             string honkNoise)
@@ -40,6 +40,8 @@ namespace CarLotSimulator
         {
             Console.WriteLine($"{EngineNoise}");
         }
+
+
     }
     
 }

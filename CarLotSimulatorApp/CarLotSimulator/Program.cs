@@ -68,7 +68,7 @@ namespace CarLotSimulator
                 Console.WriteLine();
             }
 
-
+            Console.WriteLine($"You have {CarLot.numberOfCars} so far");
 
 
             //*************BONUS*************//
